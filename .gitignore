@@ -1,0 +1,96 @@
+# --- General Unity Project Files ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+Assets/StreamingAssets/UnityVRTemp/
+
+# --- Unity Cache & Shader Files ---
+**/Library/ShaderCache/
+**/Library/Artifacts/
+**/Library/ScriptAssemblies/
+
+# --- Unity VR Platform-Specific Files ---
+*.apk
+*.aab
+*.xcodeproj/
+*.xcworkspace/
+*.app/
+*.exe
+*.dll
+*.dSYM/
+*.pdb
+*.so
+*.proguard/
+
+# --- Platform-Specific User Files ---
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# --- Visual Studio Files ---
+.vs/
+*.suo
+*.user
+*.userprefs
+
+# --- Unity Auto-Generated Files ---
+*.csproj
+*.unityproj
+*.sln
+*.tmproj
+*.pidb
+*.booproj
+*.svd
+
+# --- Build Artifacts ---
+*.log
+*.bak
+*.generated.cs
+
+# --- Rider IDE Files ---
+.idea/
+*.idea/
+*.ipr
+*.iws
+.idea_modules/
+*.modules.xml
+
+# --- AR/VR Plugin Files ---
+Assets/Oculus/Spatializer/
+Assets/Plugins/OpenXR/
+
+# --- Temporary Files ---
+*.tmp
+*.temp
+*.bak
+*.log
+
+# --- Unity-generated Crash Reports ---
+CrashReports/
+
+# --- Generated Lighting Data ---
+Assets/**/LightingData.asset
+
+# --- Builds ---
+Build/
+Builds/
+
+# --- Optional: Ignore Unity Collaborate Cache ---
+UnityCollaborateCache/
+
+# --- Optional: Ignore Large Files in AR/VR ---
+*.fbx.meta
+*.png.meta
+*.wav.meta
+
+# --- Visual Studio cache files ---
+*.vs
+__pycache__/
